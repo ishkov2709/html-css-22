@@ -1,0 +1,109 @@
+:root {
+  --primary-text-color: rgba(0, 0, 0, 0.8);
+  --title-text-color: #000000;
+  --accent-color: #18a0fb;
+  --primary-white-color: #ffffff;
+}
+
+body {
+  background-color: var(--primary-white-color);
+  color: var(--primary-text-color);
+
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: -0.015;
+}
+
+.list {
+  list-style: none;
+}
+
+.logo {
+  color: var(--title-text-color);
+
+  font-family: Comfortaa, cursive;
+  font-size: 28px;
+  line-height: 1.14px;
+  text-decoration: none;
+}
+
+.logo:hover {
+  color: var(--accent-color);
+}
+
+/* site nav */
+
+.site-nav .link {
+  color: var(--accent-color);
+
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 1.2;
+  text-decoration: none;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--title-text-color);
+}
+
+/* Hero */
+
+/* Features and Examples */
+
+.hero-title {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 1.43;
+  text-align: center;
+}
+
+/* Section */
+
+.section-title {
+  color: var(--title-text-color);
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 1, 5;
+  text-align: center;
+}
+
+.section-description {
+  font-size: 36px;
+  line-height: 1.39;
+}
+
+.feature-list .title,
+.work-list .title {
+  color: var(--title-text-color);
+
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.5;
+}
+
+/* Button */
+
+.button {
+  background-color: var(--primary-white-color);
+  color: var(--title-text-color);
+
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 1.2;
+  text-decoration: none;
+}
+
+.button.primary {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+}
+.button.secondary {
+  background-color: var(--primary-white-color);
+  color: var(--accent-color);
+}
